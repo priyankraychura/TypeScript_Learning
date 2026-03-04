@@ -3,21 +3,21 @@ score = 44
 score = "55"
 score = true
 
-type User = {
+type User2 = {
     name: string;
     id: number;
 }
-type Admin = {
+type Admin2 = {
     username: string;
     id: number;
 }
 
-let priyank: User | Admin = {
+let priyank2: User2 | Admin2 = {
     name: "Priynk",
     id: 1234
 }
 
-priyank = {
+priyank2 = {
     username: "pr",
     id: 1234
 }
