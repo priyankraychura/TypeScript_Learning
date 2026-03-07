@@ -9,8 +9,8 @@
 //     }
 // }
 
-class User3 {
-    private _courseCount = 1
+class User {
+    protected _courseCount = 1
 
     readonly city: String = "Jaipur"
     constructor(
@@ -44,4 +44,12 @@ class User3 {
     }
 }
 
-const priyank = new User3("priyank@gamil.com", "Priyank", "abc")
+class SubUser extends User {
+    isFamily: boolean = true
+    changeCourseCount() {
+        this._courseCount = 4
+    }
+
+}
+
+const priyank = new User("priyank@gamil.com", "Priyank", "abc")
