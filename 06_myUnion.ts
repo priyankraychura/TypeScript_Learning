@@ -6,7 +6,7 @@ score = true
 type User2 = {
     name: string;
     id: number;
-}
+}   
 type Admin2 = {
     username: string;
     id: number;
